@@ -37,7 +37,7 @@ span{
 
 input[type=text],input[type=button]{
     width: 200px;
-    border-radius: 7px 7px 7px 10%;
+    border-radius: 20px;
 }
 .em, .pass{
     padding-bottom: 10px;
