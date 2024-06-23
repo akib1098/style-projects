@@ -7,25 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="body">
-        <div class="container shadow-drop-center">
-
-            <div class="em">
-                <h1>LOG IN</h1>
-                <label for="email">Email</label>
-                <input type="text" name="" id="email">
-                <span>valid email</span>
-            </div>
-
-
-            <div class="pass">
-            <label for="password">Password</label>
-            <input type="text" name="" id="password">
-            <span class="span1">invalid password</span>
-            <br>
-            </div>
-            
-            <input type="button" value="submit">
+    <div class="full-screen-container">
+        <div class="login-container">
+            <h1 class="login-title">Welcome</h1>
+            <form class="form">
+                <div class="input-group success">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <span class="msg">valid email</span>
+                </div>
+                <div class="input-group error">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+                    <span class="msg">invalid password</span>
+                </div>
+                <button type="submit" class="login-button">login</button>
+            </form>
         </div>
     </div>
 </body>
